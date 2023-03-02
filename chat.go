@@ -15,6 +15,7 @@ var (
 type ChatCompletionMessage struct {
 	Role    string `json:"role"`
 	Content string `json:"content"`
+	Name    string `json:"name,omitempty"`
 }
 
 // ChatCompletionRequest represents a request structure for chat completion API.
